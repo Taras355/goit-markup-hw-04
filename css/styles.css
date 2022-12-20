@@ -173,13 +173,6 @@ h1, h2, h3, h4, h5, h6, p {
 .footer-socials-item {
     width: 40px;
     height: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    color: var(--color-light);
-}
-
-.footer-socials-item:hover, .footer-socials-item:focus {
-    background-color: var(--color-success);
 }
 
 .footer-socials-link {
@@ -188,6 +181,14 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     width: 100%;
     height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: var(--color-light);
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+    background-color: var(--color-success);
 }
 
 .footer-socials-icon {
@@ -197,6 +198,8 @@ h1, h2, h3, h4, h5, h6, p {
 /* HERO */
 
 .hero {
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
@@ -372,13 +375,6 @@ h1, h2, h3, h4, h5, h6, p {
 .team-socials-item {
     width: 40px;
     height: 40px;
-    background-color: var(--color-primarybrand);
-    color: var(--color-light);
-    border-radius: 50%;
-}
-
-.team-socials-item:hover, .team-socials-item:focus {
-    background-color: var(--color-pressedstate);
 }
 
 .team-socials-link {
@@ -387,6 +383,14 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     width: 100%;
     height: 100%;
+    background-color: var(--color-primarybrand);
+    color: var(--color-light);
+    border-radius: 50%;
+}
+
+.team-socials-link:hover,
+.team-socials-link:focus {
+    background-color: var(--color-pressedstate);
 }
 
 .team-socials-icon {
@@ -413,14 +417,6 @@ h1, h2, h3, h4, h5, h6, p {
 .customers-item {
     width: 168px;
     height: 88px;
-    border: 1px solid var(--color-subtletext);
-    border-radius: 4px;
-    color: var(--color-subtletext);
-}
-
-.customers-item:hover, .customers-item:focus {
-    border-color: var(--color-pressedstate);
-    color: var(--color-pressedstate);
 }
 
 .customers-link {
@@ -429,6 +425,15 @@ h1, h2, h3, h4, h5, h6, p {
     height: 100%;
     justify-content: center;
     align-items: center;
+    border: 1px solid var(--color-subtletext);
+    border-radius: 4px;
+    color: var(--color-subtletext);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border-color: var(--color-pressedstate);
+    color: var(--color-pressedstate);
 }
 
 .customers-icon {
@@ -482,7 +487,7 @@ h1, h2, h3, h4, h5, h6, p {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.examples-item:hover, .examples-item:focus {
+.examples-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
